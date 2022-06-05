@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinShare.Cooridates">
+    <ContentPage.Content>
+        <StackLayout Background="red" BackgroundColor="Blue">
+            <Entry x:Name="Latitude1" FontSize="Large" Placeholder="Latitude of location1" />
+            <Entry x:Name="Longitude1" FontSize="Large" Placeholder="Longitude of location1" />
+            <Entry x:Name="Latitude2" FontSize="Large" Placeholder="Latitude of location2" />
+            <Entry x:Name="Longitude2" FontSize="Large" Placeholder="Longitude of location2" />
+            <Button x:Name="Button1" Text="Calculate Distance" FontSize="Large" Clicked="Button1_Clicked" />
+            <Editor x:Name="Results" FontSize="Large" FontAttributes="Bold" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
